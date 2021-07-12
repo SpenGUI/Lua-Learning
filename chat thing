@@ -1,0 +1,11 @@
+print("script running")
+local BaseNumber = 25
+
+while wait(BaseNumber) do
+    local coolDown = math.random(5,40)
+    print(coolDown)
+    warn(coolDown + BaseNumber)
+    wait(coolDown + BaseNumber)
+    print("running line")
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Tradeing sinister branches for a down grade (msg me on dissy TheGUI#0738)', 'All'); -- FireServer (<string> Message, <string> Channel)
+end
