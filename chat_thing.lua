@@ -1,12 +1,15 @@
-local chat = "Tradeing sinister branches for a down grade! (msg me on dissy TheGUI#0738) no projected offers please!" ---CHANGE THIS FOR A DIFFRENT CHAT TEXT :D
-print("script running")
+local chat = "Tradeing sinister branches for a down grade! (msg me on dissy TheGUI#0001) no projected offers please!"
 local BaseNumber = 25
+print("script running")
+
 
 while wait(BaseNumber) do
     local coolDown = math.random(5,40)
-    print(coolDown)
-    warn(coolDown + BaseNumber)
-    wait(coolDown + BaseNumber)
-    print("running line")
+    local coolDown2 = coolDown
+    print(coolDown2)
+    warn(coolDown2 + BaseNumber)
+    wait(coolDown2 + BaseNumber)
+    print("running line:")
+    print(chat)
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(chat, 'All'); -- FireServer (<string> Message, <string> Channel)
 end
