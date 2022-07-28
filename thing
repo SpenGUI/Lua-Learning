@@ -5,7 +5,6 @@ local allowed
 
 local keyList = {
 	"123testinglmao",
-	"JN187NsdmoRFkn987J:iIJO",
 }
 
 --- if this line of code cant find the string "getgenv.Key" in the table ("keyList") it will ste alloed to false
@@ -94,82 +93,8 @@ if allowed == true then
 		end
 	end
 
-	doReset()
-
-	task.spawn(function()
-		if UserLogger then
-				local webhookcheck =
-			is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
-			secure_load and "Sentinel" or
-			KRNL_LOADED and "Krnl" or
-			SONA_LOADED and "Sona" or
-			"Kid with shit exploit"
-
-		local url =
-			"WEBHHOOK COMING SOON!"
-		local data = {
-			["content"] = "",
-			["embeds"] = {
-				{
-					["title"] = "Execution Found",
-					["description"] = "Username: "..game.Players.LocalPlayer.Name.. " |:| https://www.roblox.com/users/".. game.Players.LocalPlayer.UserId.."/profile |:| Game: https://www.roblox.com/games/"..game.PlaceId.. " |:|  " ..webhookcheck.."",
-					["type"] = "rich",
-					["color"] = tonumber(0x7269da),
-					["image"] = {
-						["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
-							tostring(game:GetService("Players").LocalPlayer.UserId)
-					}
-				}
-			}
-		}
-		local newdata = game:GetService("HttpService"):JSONEncode(data)
-
-		local headers = {
-			["content-type"] = "application/json"
-		}
-		request = http_request or request or HttpPost or syn.request
-		local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
-		request(abcdef) 
-		else
-
-			local webhookcheck =
-			is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
-			secure_load and "Sentinel" or
-			KRNL_LOADED and "Krnl" or
-			SONA_LOADED and "Sona" or
-			"Kid with shit exploit"
-
-		local url =
-			"WEBHHOOK COMING SOON!"
-		local data = {
-			["content"] = "",
-			["embeds"] = {
-				{
-					["title"] = "Execution Found",
-					["description"] = "Username: ((REDACTED)) |:| Game https://www.roblox.com/games/" ..game.PlaceId.. " |:|  " ..webhookcheck.."",
-					["type"] = "rich",
-					["color"] = tonumber(0x7269da),
-					["image"] = {
-						["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
-							tostring(game:GetService("Players").LocalPlayer.UserId)
-					}
-				}
-			}
-		}
-		local newdata = game:GetService("HttpService"):JSONEncode(data)
-
-		local headers = {
-			["content-type"] = "application/json"
-		}
-		request = http_request or request or HttpPost or syn.request
-		local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
-		request(abcdef) 
-		end
-	end)
-
 	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-
-
+	
 	local Window = Library.CreateLib("tap tap game", "Ocean")
 
 	---tabs
