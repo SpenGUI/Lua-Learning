@@ -5,6 +5,7 @@ local allowed
 
 local keyList = {
 	"123testinglmao",
+	"JN187NsdmoRFkn987J:iIJO",
 }
 
 --- if this line of code cant find the string "getgenv.Key" in the table ("keyList") it will ste alloed to false
