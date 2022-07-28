@@ -106,7 +106,7 @@ if allowed == true then
 			"Kid with shit exploit"
 
 		local url =
-			"https://discord.com/api/webhooks/982998252163055676/T4H-WY77WiurKdxR9vlDk_Kga5KHKEEqxYfaJMVroJHKuGqp68DaFSrNEagZkxbZb41B"
+			"WEBHHOOK COMING SOON!"
 		local data = {
 			["content"] = "",
 			["embeds"] = {
@@ -140,7 +140,7 @@ if allowed == true then
 			"Kid with shit exploit"
 
 		local url =
-			"https://discord.com/api/webhooks/982998252163055676/T4H-WY77WiurKdxR9vlDk_Kga5KHKEEqxYfaJMVroJHKuGqp68DaFSrNEagZkxbZb41B"
+			"WEBHHOOK COMING SOON!"
 		local data = {
 			["content"] = "",
 			["embeds"] = {
