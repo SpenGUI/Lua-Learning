@@ -88,7 +88,7 @@ task.spawn(function()
 		"Kid with shit exploit"
 
 	local url =
-		"https://discord.com/api/webhooks/982998252163055676/T4H-WY77WiurKdxR9vlDk_Kga5KHKEEqxYfaJMVroJHKuGqp68DaFSrNEagZkxbZb41B"
+		""
 	local data = {
 		["content"] = "",
 		["embeds"] = {
@@ -122,7 +122,7 @@ task.spawn(function()
 		"Kid with shit exploit"
 
 	local url =
-		"https://discord.com/api/webhooks/982998252163055676/T4H-WY77WiurKdxR9vlDk_Kga5KHKEEqxYfaJMVroJHKuGqp68DaFSrNEagZkxbZb41B"
+		""
 	local data = {
 		["content"] = "",
 		["embeds"] = {
