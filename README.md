@@ -1,1 +1,3 @@
 # Lua-Learning
+
+lua sucks
