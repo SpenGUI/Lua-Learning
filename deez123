@@ -1,0 +1,27 @@
+local userId = game.Players.LocalPlayer.UserId
+local userName = game.Players.LocalPlayer.Name
+local allowed
+
+local blacklisted = {
+"2798707788",
+"uMa_dKid",
+}
+
+if table.find(blacklisted, userId) then
+	allowed = false
+else
+	allowed = true
+end
+
+if table.find(blacklisted, userName) then
+    allowed = false
+else
+    allowed = true
+end
+
+if allowed == false then
+  game.Players.LocalPlayer:Kick("what did you do? you do know someone had to manally add you to this list lmao")
+  wait()
+else
+  return false
+end
