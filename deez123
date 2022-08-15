@@ -23,5 +23,6 @@ if allowed == false then
   game.Players.LocalPlayer:Kick("what did you do? you do know someone had to manally add you to this list lmao")
   wait()
 else
+  print("passed")
   return false
 end
