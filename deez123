@@ -3,8 +3,8 @@ local userName = game.Players.LocalPlayer.Name
 local allowed
 
 local blacklisted = {
-"2798707788",
-"uMa_dKid",
+"1",
+"Roblox",
 }
 
 if table.find(blacklisted, userId) then
@@ -20,6 +20,7 @@ else
 end
 
 if allowed == false then
+  print("failed")
   game.Players.LocalPlayer:Kick("what did you do? you do know someone had to manally add you to this list lmao")
   wait()
 else
