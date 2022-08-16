@@ -4,8 +4,7 @@ local allowed
 
 local blacklisted = {
 "1",
-"Roblox",
-"Uma_dKid",
+"",
 }
 
 if table.find(blacklisted, userId) then
